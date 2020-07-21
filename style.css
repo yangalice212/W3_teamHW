@@ -57,19 +57,20 @@ img{
     display: block;
 }
 
+.container{
+    padding-top: 20px;
+}
+
 .center{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
-.container{
-    padding: 20px 15px 0 15px;
-}
 .header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
-    margin: 0 auto 24px auto;
 }
 
 .logo a{
@@ -118,6 +119,7 @@ h2{
 
 .content p{
     margin-bottom: 24px;
+    line-height: 1.5;
 }
 
 .banner{    
